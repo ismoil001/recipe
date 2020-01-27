@@ -1,0 +1,93 @@
+.rw-box {
+  border-radius: 8px;
+  border: 1px solid #afafaf;
+  .rw-box-days {
+    border: 0!important;
+    .wicon {
+      margin-top: 15px;
+      font-size: 40px!important;
+      color: grey!important;
+    }
+  }
+  .rw-main {
+    padding-bottom: 15px;
+    padding-top: 65px;
+    background: white !important;
+    border-radius: 10px;
+    .rw-box-right {
+      color: grey;
+      background: none!important;
+      border-radius: 0 7px 7px 0;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .wi-cloudy{
+        background-image: url("/my-app/public/images/logo.PNG");
+      }
+    }
+    h2 {
+      font-size: 1rem !important;
+    }
+    .rw-box-right i {
+      font-size: 60px!important;
+    }
+    .rw-today {
+      .date {
+        display: none !important;
+      }
+
+      .range {
+        display: none !important;
+      }
+
+      .desc {
+        display: none !important;
+      }
+
+      .hr {
+        display: none !important;
+      }
+
+      .info {
+        display: none !important;
+      }
+    }
+
+    .rw-today {
+      .current {
+        font-size: 1.75rem !important;
+        color: #3c4043 !important;
+        font-weight: 400 !important;
+      }
+    }
+
+    .rw-box-left {
+      color: #000;
+      h2 {
+        position: absolute;
+        top: 20px;
+        width: 85%;
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+.mymy{
+  max-width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 65px;
+  width: 504px;
+}
+.mymy2{
+  max-width: 100%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 65px;
+  width: 504px;
+}
